@@ -1,0 +1,12 @@
+# Necessary Python modules
+
+pandas
+numpy
+detect_delimiter
+openpyxl 
+matplotlib
+tabulate 
+scipy 
+flask 
+werkzeug
+waitress 
