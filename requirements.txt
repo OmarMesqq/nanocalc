@@ -10,3 +10,4 @@ scipy
 flask 
 werkzeug
 waitress 
+staticx
