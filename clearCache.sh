@@ -2,29 +2,29 @@
 
 # Clears user's input files
 cd emission_files 
-rm * 
+del * 
 cd ..
 
 cd extinction_coefficient_files 
-rm * 
+del * 
 cd ..
 
 cd index_files
-rm * 
+del * 
 cd ..
 
 cd refractive_index_files 
-rm * 
+del * 
 cd ..
 
 
 # Clears generated data (graphs, .dat files, etc)
 cd result 
-rm -rf * 
+del * 
 cd ..
 
 
 # Clears application's cache and compressed file 
 # which contains the user's data
-rm -rf __pycache__ 
-rm mydata.zip
+del -rf __pycache__ 
+del generated-data.zip
